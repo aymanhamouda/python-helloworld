@@ -54,9 +54,9 @@ jobs:
       #    push: true
       #    tags: pixelpotato/python-helloworld:latest
       -
-        name: Build and push
+        name: Build and push Docker images
         id: docker_build
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v2.6.1
         with:
           context: .
           file: ./Dockerfile
