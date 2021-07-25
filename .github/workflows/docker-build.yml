@@ -42,6 +42,6 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          platforms: linux/amd64
+          platforms: ubuntu/xenial64
           push: true
           tags: aymanhamouda/python-helloworld:latest
