@@ -44,4 +44,4 @@ jobs:
           file: ./Dockerfile
           platforms: ubuntu/xenial64
           push: true
-          tags: aymanhamouda/python-helloworld:v4.0.0
+          tags: aymanhamouda/python-helloworld:v4.0.1
